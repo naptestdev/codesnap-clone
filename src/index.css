@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital@0;1&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#333] text-gray-200;
+}
+
+.CodeMirror {
+  @apply !h-auto;
+}
+
+.CodeMirror * {
+  font-family: "JetBrains Mono", monospace !important;
+  font-size: 16px !important;
+}
