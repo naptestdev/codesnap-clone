@@ -90,7 +90,7 @@ export default function App() {
         <div className="w-10 h-10 border-[3px] border-t-transparent border-blue-500 rounded-full animate-spin"></div>
       </div>
 
-      <div className="min-h-screen flex flex-col justify-center items-center">
+      <div className="min-h-screen flex flex-col justify-center items-center py-4">
         <div className="w-screen max-w-[500px] flex flex-col items-stretch gap-4">
           <div ref={containerRef} className="bg-[#ADD8E6] p-[15px]">
             <div className="rounded-xl overflow-hidden p-[10px] bg-[#212121] gap-[15px] flex flex-col items-stretch">
